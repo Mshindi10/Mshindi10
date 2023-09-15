@@ -1,5 +1,7 @@
+
 fun main(args: Array<String>) {
-    println("What is your name?")
-    val  name = readln()
-    println("Hello ,$name")
+    print("Enter a number: ")
+    val stringInput = readLine()!!
+    var integer:Int = stringInput.toInt()
+    println("You entered: $integer")
 }
